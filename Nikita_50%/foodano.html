@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodano</title>
+    <link rel="stylesheet" href="./foodano.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <div>
+      <!-- navbar -->
+      <!-- <div class="d-flex justify-content-between" style="background-color: black; color: white;">
+        
+          <div class="nav-item dropdown top" >
+            <div class="dropdown navbar-toggler-icon">
+              <button
+                class="btn btn-none"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <a class="nav-link" href="#">Language </a>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Hindi</a></li>
+                <li><a class="dropdown-item" href="#">French</a></li>
+                <li><a class="dropdown-item" href="#">UAE</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-item dropdown top">
+            <div class="dropdown navbar-toggler-icon">
+              <button
+                class="btn btn-none"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <a class="nav-link" href="#">Currency </a>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#">Dollar</a></li>
+                <li><a class="dropdown-item" href="#">Rupees</a></li>
+                <li><a class="dropdown-item" href="#">Yen</a></li>
+                <li><a class="dropdown-item" href="#">Dirham</a></li>
+              </ul>
+            </div>
+          </div>
+        
+      </div> -->
+      <div class="navbar navbar-expand-lg" style="background-color: rgba(12, 168, 12, 0.916);">
+      <div class="navbar-brand">
+         <img class="img-fluid" style="background-color: white;" src="https://html.vecurosoft.com/foodano/demo/assets/img/logo.svg" alt="">
+      </div>
+         
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-items ml-auto text-left ">
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <button
+                  class="btn btn-none"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <a class="nav-link" href="#"
+                    >Enterprise </a
+                  >
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Shop</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Pages</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us </a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-none" type="button">
+                <a class="nav-link" href="#">Home</a>
+              </button>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <button
+                  class="btn btn-none"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <a class="nav-link" href="#"
+                    >Shop</a
+                  >
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Service 1</a></li>
+                  <li><a class="dropdown-item" href="#">Service 2</a></li>
+                  <li><a class="dropdown-item" href="#">Service 3</a></li>
+                  <li><a class="dropdown-item" href="#">Service 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <button
+                  class="btn btn-none"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <a class="nav-link" href="#"
+                    >Blog</a
+                  >
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Solutions 1</a></li>
+                  <li><a class="dropdown-item" href="#">Solutions 2</a></li>
+                  <li><a class="dropdown-item" href="#">Solutions 3</a></li>
+                  <li><a class="dropdown-item" href="#">Solutions 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-none" type="button">
+                <a class="nav-link" href="#">Pages</a>
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button class="btn btn-none" type="button">
+                <a class="nav-link" href="#">Contact Us</a>
+              </button>
+            </li>
+           
+            <!-- <li class="nav-item m-3">
+                <button class="btn rounded-pill btn-outline-light" >
+                  Search Your Products <i class="bi bi-search" style="font-size: 3vh; color: white;"></i>
+                </button>
+              
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="banner">
+        <br /><br /><br /><br /><br />
+        <div class="container">
+          <div class="row align-items-center mt-1">
+            <div class="col-lg-8 mt-1">
+              <h1
+                class="mil-mb-60 display-5 fw-700 lh-1.4 mt-1 pt-1 mb-1 pb-1"
+              >
+                <span style="color: black"
+                  >Organic & Healthy <br> Vegan Food</span
+                >
+              </h1>
+            </div>
+          </div>
+          <br /><br />
+          <div class="row align-items-center mt-1 pt-1">
+            <div class="col-md-4">
+              <p style="color: rgba(83, 80, 80, 0.708)">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <br />
+              <button
+                class="btn rounded-pill"
+                style="color: white; background-color: rgba(12, 168, 12, 0.916)"
+              >
+                Purchase Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <!-- section2 -->
+    <div class="container-fluid mt-1 mb-1">
+      <div class="row section2">
+        <div
+          class="col-md-4 card container p-5"
+          style="
+            background: url(https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg)
+              center/cover no-repeat;
+          "
+        >
+          <div class="m-5">
+            <h3>We Offer Premium and 100% Organic Food</h3>
+            <h5 style="color: rgba(12, 168, 12, 0.916)">
+              <u> Shop Now </u>
+            </h5>
+          </div>
+        </div>
+        <div
+          class="col-md-4 card container p-5"
+          style="
+            background: url(https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg)
+              center/cover no-repeat;
+          "
+        >
+          <div class="m-5">
+            <h5 style="color: gray">Special Recipe</h5>
+            <h5 style="color: rgba(12, 168, 12, 0.916)">Fruits Taste</h5>
+            <h3>Made with meat, vegetables and cheese</h3>
+          </div>
+        </div>
+        <div
+          class="col-md-4 card container p-5"
+          style="
+            background: url(https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg)
+              center/cover no-repeat;
+          "
+        >
+          <div class="m-5">
+            <h5 style="color: rgba(12, 168, 12, 0.916)">Sale of 30%</h5>
+            <h4>All Chocolate Products</h4>
+            <h4>
+              <button
+                class="btn rounded-pill"
+                style="background-color: rgba(12, 168, 12, 0.916); color: white"
+              >
+                Order Now
+              </button>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- section 3 -->
+    <div
+      class="row container-fluid section3 justify-content-between mt-2 mb-2 pb-2"
+    >
+      <div class="col-lg-3 text-center">
+        <img
+          class="img-fluid"
+          src="https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg"
+          alt=""
+        />
+        Best Seller Foodlio Organic
+      </div>
+      <div class="col-lg-9">
+        <div class="d-flex justify-content-between">
+          <h2>HOT DEALS</h2>
+          <h4>1795 Days : 11 hours : 40 Mins : 58 Secs</h4>
+        </div>
+        <div class="row">
+          <div class="col-md-4 card text-center align-items-center">
+            <img
+              class="img-fluid"
+              src="https://i.pinimg.com/736x/05/79/5a/05795a16b647118ffb6629390e995adb.jpg"
+              style="width: 80%; height: 70%"
+              alt=""
+            />
+            <div style="background-color: rgba(165, 161, 161, 0.708)">
+              <h3>Black Beans</h3>
+              <h5 style="color: gray">&dollar; 20.00</h5>
+              <div class="d-flex text-center">
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-half"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card text-center align-items-center">
+            <img
+              class="img-fluid"
+              src="https://m.media-amazon.com/images/I/513SGvOptJL.jpg"
+              style="width: 80%; height: 70%"
+              alt=""
+            />
+            <div style="background-color: rgba(165, 161, 161, 0.708)">
+              <h3>Apple Juice</h3>
+              <h5 style="color: gray">
+                &dollar; 10.60 <strike>&dollar; 11.06</strike>
+              </h5>
+              <div class="d-flex text-center">
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card text-center align-items-center">
+            <img
+              class="img-fluid"
+              src="https://www.thermofisher.com/blog/food/wp-content/uploads/sites/5/2015/08/single_strawberry__isolated_on_a_white_background.jpg"
+              style="width: 80%; height: 70%"
+              alt=""
+            />
+
+            <div style="background-color: rgba(165, 161, 161, 0.708)">
+              <h3>Ziti Food</h3>
+              <h5 style="color: gray">&dollar; 45.00</h5>
+              <div class="d-flex text-center">
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-fill"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                <i
+                  class="bi bi-star-half"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <!-- section 4 -->
+    <div
+      class="section4 container text-center mt-1 mb-1 pb-2"
+      style="background-color: rgba(216, 215, 215, 0.404)"
+    >
+      <h1 class="display-5" style="color: rgba(59, 152, 59, 0.916)">
+        Latest Arrivals
+      </h1>
+      <div class="row container-fluid align-items-center mt-2 mb-2">
+        <div class="col-md-3">
+          <img
+            class="img-fluid"
+            src="https://cdn-icons-png.flaticon.com/512/3570/3570168.png"
+            alt=""
+            style="width: 30%; height: 30%"
+          />
+          <h4>Show All</h4>
+        </div>
+        <div class="col-md-3">
+          <img
+            class="img-fluid"
+            src="https://cdn-icons-png.flaticon.com/512/3570/3570168.png"
+            alt=""
+            style="width: 30%; height: 30%"
+          />
+          <h4>Meat</h4>
+        </div>
+        <div class="col-md-3">
+          <img
+            class="img-fluid"
+            src="https://cdn-icons-png.flaticon.com/512/3570/3570168.png"
+            alt=""
+            style="width: 30%; height: 30%"
+          />
+          <h4>Season</h4>
+        </div>
+        <div class="col-md-3">
+          <img
+            class="img-fluid"
+            src="https://cdn-icons-png.flaticon.com/512/3570/3570168.png"
+            alt=""
+            style="width: 30%; height: 30%"
+          />
+          <h4>Vegetables</h4>
+        </div>
+      </div>
+      <br />
+      <div class="row container-fluid mt-2">
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://i.pinimg.com/736x/05/79/5a/05795a16b647118ffb6629390e995adb.jpg"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Black Beans</h3>
+            <h5 style="color: gray">&dollar; 20.00</h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-half"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://m.media-amazon.com/images/I/513SGvOptJL.jpg"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Apple Juice</h3>
+            <h5 style="color: gray">
+              &dollar; 10.60 <strike>&dollar; 11.06</strike>
+            </h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://www.thermofisher.com/blog/food/wp-content/uploads/sites/5/2015/08/single_strawberry__isolated_on_a_white_background.jpg"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Ziti Food</h3>
+            <h5 style="color: gray">&dollar; 45.00</h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-half"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://shop.organicmandya.com/cdn/shop/products/1y79UWGdIyhJsKIJOPUtusB17UwyLxWjO_5fce89fb-6f56-405f-8042-f24c5bd65454_783x700.jpg?v=1608550660"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Kidney Beans</h3>
+            <h5 style="color: gray">
+              &dollar; 15.00 <strike>&dollar; 18.00</strike>
+            </h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row container-fluid mt-2">
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://i.pinimg.com/736x/05/79/5a/05795a16b647118ffb6629390e995adb.jpg"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Black Beans</h3>
+            <h5 style="color: gray">&dollar; 20.00</h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-half"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://m.media-amazon.com/images/I/513SGvOptJL.jpg"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Apple Juice</h3>
+            <h5 style="color: gray">
+              &dollar; 10.60 <strike>&dollar; 11.06</strike>
+            </h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://www.thermofisher.com/blog/food/wp-content/uploads/sites/5/2015/08/single_strawberry__isolated_on_a_white_background.jpg"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div style="background-color: rgba(165, 161, 161, 0.708)">
+            <h3>Ziti Food</h3>
+            <h5 style="color: gray">&dollar; 45.00</h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-half"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 card text-center align-items-center">
+          <img
+            class="img-fluid"
+            src="https://shop.organicmandya.com/cdn/shop/products/1y79UWGdIyhJsKIJOPUtusB17UwyLxWjO_5fce89fb-6f56-405f-8042-f24c5bd65454_783x700.jpg?v=1608550660"
+            style="width: 80%; height: 70%"
+            alt=""
+          />
+          <div
+            style="background-color: rgba(165, 161, 161, 0.708)"
+            class="text-center"
+          >
+            <h3>Kidney Beans</h3>
+            <h5 style="color: gray">
+              &dollar; 15.00 <strike>&dollar; 18.00</strike>
+            </h5>
+            <div class="d-flex text-center">
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+              <i
+                class="bi bi-star-fill"
+                style="color: rgba(12, 168, 12, 0.916)"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <!-- section 5 -->
+
+    <div class="section5 mt-1 mb-1">
+      <div class="row container-fluid">
+        <div
+          class="col-xl-6 card container p-5"
+          style="
+            background: url(https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg)
+              center/cover no-repeat;
+          "
+        >
+          <div class="m-5">
+            <h3>
+              Vegetables
+              <span style="color: rgba(12, 168, 12, 0.916)"> Big Sale</span>
+              Fresh Farm Products
+            </h3>
+            <h5 style="color: rgba(12, 168, 12, 0.916)">
+              <u> Shop Now </u>
+            </h5>
+          </div>
+        </div>
+        <div
+          class="col-xl-6 card container p-5"
+          style="
+            background: url(https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg)
+              center/cover no-repeat;
+          "
+        >
+          <div class="m-5">
+            <h3>We Offer Premium and 100% Organic Food</h3>
+            <h5 style="color: rgba(12, 168, 12, 0.916)">
+              <u> Shop Now </u>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <!-- footer -->
+
+    <footer
+      class="mt-2"
+      style="
+        background: url(data:image/jpeg;base64,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)
+          center/cover no-repeat;
+      "
+    >
+      <div class="footer container mb-2">
+        <div
+          style="background-color: rgba(255, 192, 203, 0.614)"
+          class="pt-5 d-flex container-fluid justify-content-around"
+        >
+          <div>
+            <h6 class="text-uppercase">GET CONNECTED</h6>
+            <h1>
+              Subscribe
+              <span style="color: rgba(12, 168, 12, 0.916)"> Newsletter</span>
+            </h1>
+          </div>
+          <div>
+            <button class="btn btn-outline-secondary rounded-pill">
+              Enter Your Email
+              <span>
+                <button
+                  class="btn rounded-pill"
+                  style="
+                    background-color: rgba(12, 168, 12, 0.916);
+                    color: white;
+                  "
+                >
+                  Subscribe Now
+                </button>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-3">
+            <h3><u> Contact Us</u></h3>
+            <br />
+            <h6 style="color: rgb(116, 113, 113)">
+              6Fifth Avenue 5501, Broadway, New York Morris Street London 1234
+            </h6>
+            <br />
+            <h6>
+              <i class="bi bi-send-fill"></i>
+              foodano@example.com
+            </h6>
+            <br />
+            <h6>
+              <i class="bi bi-send-fill"></i>
+              +(123) 4567 89000
+            </h6>
+          </div>
+          <div class="col-md-3">
+            <h3><u> Useful Links</u></h3>
+            <br />
+            <ul style="list-style-type: none">
+              <li>&rightarrow; Shop</li>
+              <li>&rightarrow; Blog</li>
+              <li>&rightarrow; Contact Us</li>
+              <li>&rightarrow; FAQ Page</li>
+              <li>&rightarrow; Services</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3><u> Follow Us On</u></h3>
+            <br />
+            <ul style="list-style-type: none">
+              <li>
+                <i
+                  class="bi bi-facebook"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                Facebook
+              </li>
+              <li>
+                <i
+                  class="bi bi-twitter"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                Twitter
+              </li>
+              <li>
+                <i
+                  class="bi bi-instagram"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                Pinterest
+              </li>
+              <li>
+                <i
+                  class="bi bi-linkedin"
+                  style="color: rgba(12, 168, 12, 0.916)"
+                ></i>
+                LinkedIn
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3><u> Get Directions</u></h3>
+            <br />
+            <p class="mapp container-fluid">
+              <iframe
+                class="img-fluid"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d43981.267535671584!2d-1.2028457664179697!3d46.45208078844101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s610%20Rue%20de%20Paris%2C%20Lu%C3%A7on%2C%20France!5e0!3m2!1sen!2sin!4v1693923531460!5m2!1sen!2sin"
+                height="300"
+                width="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

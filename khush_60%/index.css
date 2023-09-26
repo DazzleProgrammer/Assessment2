@@ -1,0 +1,589 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+===========================
+offer
+=========================== 
+*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#vr {
+  border-left: 2px solid white;
+  height: 1em;
+}
+
+#offer {
+  width: 100%;
+  height: 170px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#offer > div {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+#offer > div:nth-child(1) {
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 30%;
+}
+
+#offer > div:nth-child(2) {
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 20%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#offer > div:nth-child(3) {
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 50%;
+}
+
+.mright {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 40%;
+  align-items: center;
+  gap: 1em;
+}
+
+#offer .upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: url("https://plus.unsplash.com/premium_photo-1668673865474-5daac6167140?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVnZXRhYmxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+#offer .lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.timings {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rlower {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rlower .fa-solid {
+  padding: 1em 0.5em;
+  border: 2px solid limegreen;
+  border-radius: 50%;
+  background-color: limegreen;
+}
+/* 
+===========================
+navbar
+=========================== 
+*/
+
+#navbar {
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.nleft {
+  width: 40%;
+
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  color: white;
+}
+.nright {
+  width: 50%;
+  height: 80%;
+
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  color: white;
+}
+.nright > input {
+  border: none;
+  width: 60%;
+  height: 90%;
+  border-radius: 2em;
+}
+.nright > input::placeholder {
+  position: relative;
+  left: 2em;
+}
+
+/* 
+===========================
+title page
+=========================== 
+*/
+
+#tp {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1577003811926-53b288a6e5d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  /* border: 1px solid red; */
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu > h3 {
+  width: 80%;
+  text-align: left;
+}
+.menu > p {
+  width: 80%;
+  text-align: left;
+}
+
+.title {
+  padding: 0.8em;
+  /* border: 1px solid red; */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.title > button {
+  border: none;
+  height: 3em;
+  width: 50%;
+  border-radius: 2em;
+  background-color: lawngreen;
+  color: white;
+}
+
+.title > h1 {
+  font-size: 3em;
+}
+
+/* 
+===========================
+offers
+=========================== 
+*/
+
+#offers {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#offers > div {
+  padding: 1em;
+  width: 33%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8em;
+}
+.o-1 {
+  background-image: url("https://plus.unsplash.com/premium_photo-1667926862695-629f15968976?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+.o-2 {
+  background-image: url("https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+.o-3 {
+  background-image: url("https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+
+/* 
+===========================
+hot deals
+=========================== 
+*/
+
+#hd {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hdright {
+  padding: 1em;
+  width: 20%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-image: url("https://images.unsplash.com/photo-1619241638225-14d56e47ae64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+.hdleft {
+  padding: 1em;
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hdtitle {
+  height: 10%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.hdslider {
+  height: 90%;
+  width: 100%;
+  /* border: 1px solid blue; */
+}
+
+.hdcard {
+  border: 1px solid gray;
+  width: 100%;
+  height: 22em;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  /* border: 1px solid red; */
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.owl-nav {
+  position: absolute;
+  top: -4em;
+  right: 4em;
+  width: 10%;
+  height: 10%;
+  display: flex;
+}
+.owl-nav .arrow {
+  padding: 0.5em 0.7em;
+  padding-right: 1.2em;
+  border: 3px solid green;
+  background-color: green;
+  color: white;
+  width: 50%;
+  border-radius: 50%;
+}
+/* 
+===========================
+Ad
+=========================== 
+*/
+#ad {
+  width: 100%;
+  height: 380px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#ad > div {
+  height: 100%;
+  width: 50%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1em;
+
+  justify-content: center;
+}
+#ad > div:nth-child(1) {
+  background-image: url("https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+#ad > div:nth-child(2) {
+  background-image: url("https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+/* 
+===========================
+news letter
+=========================== 
+*/
+
+#nl {
+  width: 100%;
+  height: 380px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nlcontent {
+  padding: 1em;
+  width: 90%;
+  height: 80%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: bisque;
+  border-radius: 1em;
+}
+
+.nlcontent > div:nth-child(1) {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1em;
+}
+.nlcontent > div:nth-child(2) {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1em;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.right input {
+  border: none;
+  height: 30%;
+  width: 70%;
+  border-radius: 3em;
+}
+
+.right input::placeholder {
+  position: relative;
+  left: 3em;
+}
+
+.right button {
+  border: none;
+  height: 20%;
+  width: 40%;
+  border-radius: 2em;
+  background-color: green;
+  color: white;
+}
+
+/* 
+===========================
+footer
+=========================== 
+*/
+
+#footer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 1px solid red; */
+  gap: 0.5em;
+}
+
+.f1,
+.f2,
+.f3,
+.f4 {
+  padding: 1em;
+  height: 100%;
+  width: 22%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1em;
+}
+.f4 {
+  width: 26%;
+}
+
+/* 
+===========================
+media query
+=========================== 
+*/
+
+@media (max-width: 1087px) {
+  #offer .rlower {
+    font-size: 0.5em;
+    /* border: 1px solid red; */
+  }
+  #offer .middle p {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 722px) {
+  /* footer */
+  #footer {
+    height: 600px;
+  }
+
+  #footer > div {
+    border: 1px solid green;
+    width: 80%;
+    height: 40%;
+    align-items: center;
+  }
+}
+@media (max-width: 714px) {
+  #offers {
+    height: 600px;
+  }
+  #offers > div {
+    width: 100%;
+    height: 30%;
+  }
+}
+@media (max-width: 700px) {
+  .menu {
+    width: 30%;
+  }
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .hdright {
+    display: none;
+  }
+
+  .hdleft {
+    width: 100%;
+  }
+  .hdtitle h2 {
+    display: none;
+  }
+}
+@media (max-width: 695px) {
+  .nright {
+    width: 30%;
+  }
+  .nleft * {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 684px) {
+  #offer .lower .timings,
+  #offer .rlower {
+    display: none;
+  }
+}
+@media (max-width: 588px) {
+  #nl {
+    height: 500px;
+  }
+  .nlcontent > div {
+    width: 90% !important;
+    height: 40% !important;
+  }
+  .nlcontent > div:nth-child(1) {
+    align-items: center;
+  }
+}
+
+@media (max-width: 553px) {
+  #ad {
+    height: 600px;
+  }
+  #ad > div {
+    width: 90%;
+    height: 50%;
+  }
+}
+@media (max-width: 518px) {
+  .nright {
+    display: none;
+  }
+}
+@media (max-width: 435px) {
+  #offer .middle * {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 392px) {
+  .menu {
+    display: none;
+  }
+  .title {
+    width: 90%;
+  }
+  .title h1 {
+    width: 100%;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 332px) {
+  .nlcontent h1 {
+    font-size: 1em;
+  }
+}

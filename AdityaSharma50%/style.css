@@ -1,0 +1,277 @@
+.custom-header-one {
+    height: 1.5cm;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/07/12/31/lime-2481346_1280.jpg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 0.2%;
+}
+
+.custom-header-two {
+    background-color: black;
+    color: white;
+    height: 1cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header-left-two {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 10px;
+}
+
+.header-right-two {
+    display: flex;
+    align-items: center;
+    padding-right: 15%;
+    font-size: 10px;
+}
+
+.dropdown-menu-two {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item-two:hover {
+    background-color: #333;
+}
+
+.custom-header-three {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-logo-three {
+    flex: 1;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.header-center-three {
+    flex: 2;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-right-three {
+    flex: 1;
+    text-align: right;
+    padding-right: 14%;
+}
+
+.header-button-three {
+    margin-left: 10px;
+}
+
+.icon-btn {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: green;
+    line-height: 35px;
+    padding-bottom: 1%;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+}
+
+.custom-navbar {
+    background-color: #5cb419;
+    color: white;
+}
+
+.navbar-section {
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 50%;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-section {
+    padding-right: 12%;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.navbar-search input[type="text"] {
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+.navbar-search .search-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.banner_text {
+    text-align: left;
+    margin-top: 10%;
+    color: black;
+    padding-left: 25%;
+}
+
+.banner-button {
+    background-color: #35b119;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    background-color: #45a049;
+}
+
+.icon-row {
+    text-align: center;
+}
+
+.icon-col i {
+    font-size: 1rem;
+}
+
+.icon-col {
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon-col:hover {
+    color: rgb(111, 168, 12);
+    transform: scale(1.1);
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 5px;
+    width: 4cm;
+    height: 5.5cm;
+    text-align: center;
+}
+
+.product-card img {
+    margin-top: 10px;
+    width: 2cm;
+    height: 2cm;
+    object-fit: cover;
+    background-color: white;
+}
+
+.product-name {
+    font-size: 1.0rem;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.rating {
+    color: #63b71e;
+}
+
+.section4 {
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.left-align {
+    text-align: left;
+    padding-left: 3%;
+}
+
+.text-link {
+    text-decoration: underline;
+}
+
+.text_size {
+    margin-top: 25%;
+    padding-left: 3%;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-nav li a {
+        text-align: center;
+        padding-left: 10%;
+    }
+    .custom-header-two {
+        background-color: black;
+        color: white;
+        height: 3cm;
+    }
+    .product-card {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .icon-row {
+        justify-items: auto;
+    }
+    .icon-col {
+        justify-items: auto;
+    }
+    .product-card {
+        justify-items: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .section4 {
+        justify-items: auto;
+    }
+}

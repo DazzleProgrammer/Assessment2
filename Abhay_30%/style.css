@@ -1,0 +1,349 @@
+#navbarNav{
+    margin-left: 40%;
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+
+.main{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-image: url('images/bg1.jpg');
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: green;
+}
+
+.mainHead1{
+    text-align: center;
+    color: green;
+}
+.mainHead2{
+    text-align: center;
+    
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}
+
+
+#language-selector, #currency-selector {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#left-panel {
+    flex: 1;
+}
+
+#right-panel {
+    flex: 1;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+#logoFood{
+    margin-left: 20%;
+    width: 10%;
+}
+.main03Head{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#login{
+    margin-top: 3%;
+    margin-left: 10%;
+
+}
+#Icon01{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.navbar-nav{
+    font-weight: 600;
+    color: black;
+    margin-left: 20%;
+}
+.form-inline{
+    display: flex;
+    margin-left: 20%;
+}
+
+.hero {
+    background-image: url('images/bannerFood.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    margin-top: 5%;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container01 {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+
+.box {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.box:nth-child(1) {
+    background-image: url('images/food1.webp');
+}
+
+.box:nth-child(2) {
+    background-image: url('images/food2.jpg');
+}
+
+.box:nth-child(3) {
+    background-image: url('images/food3.jpg');
+}
+
+
+.box h2 {
+    margin-top: 10%;
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+
+.image-container {
+    margin-top: 5%;
+    background-image: url('images/foodiesBack.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 300px; 
+    height: 300px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+
+.image-container h3 {
+    margin-top: 42%;
+    font-size: 24px;
+}
+
+.image-container h4 {
+    font-size: 20px;
+}
+
+#Hot {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 22%;
+}
+#Days{
+    margin-top: -33%;
+    display: contents;
+    text-align: justify;
+    margin-left: 177%;
+    position: absolute;
+}
+
+.card-container {
+    padding-right: 10%;
+    padding-left: 7%;
+    margin-left: 23%;
+    margin-top: -11%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    
+    flex: 0 0 calc(33.33% - 20px); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.card img {
+    margin-left: 38%;
+    align-items: center;
+    max-width: 10%;
+    height: auto;
+}
+
+.card h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+.card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: green;
+}
+
+
+.rating {
+    color: #ffd700; 
+    margin-top: 10px;
+}
+
+
+.card-container1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.card1 {
+    flex: 0 0 calc(33.33% - 20px); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.card1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.card1 h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+.card1 p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: green;
+}
+
+
+.rating1 {
+    color: #ffd700; 
+    margin-top: 10px;
+}
+
+
+.container01 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+
+.col {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:black;
+    padding: 20px;
+}
+
+
+.content01 {
+ background-image: url('images/foodiesBack.jpg');
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.content01 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content01 p {
+    font-size: 16px;
+}
+
+/* for responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .form-inline {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    
+}

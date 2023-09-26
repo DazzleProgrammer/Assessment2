@@ -1,0 +1,60 @@
+*{
+    font-style: italic;
+}
+.up{
+    background-image: url(https://thumbs.dreamstime.com/b/fresh-fruit-vegetable-flat-lay-raw-organic-vegetables-white-background-175144435.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 100%;
+    padding-bottom: 1%;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+i{
+    color: green;
+    margin-left: 2%;
+}
+.navbar{
+    background-color: greenyellow;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.hero{
+background-image: url(https://as2.ftcdn.net/v2/jpg/01/05/59/03/1000_F_105590311_cAD04gw6SOQ7WSVgau0uvrql76ThgbQ9.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+max-width: 100%;
+}
+#imgo{
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/04/10/16/vegetables-752153_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 100%;
+}
+#imgi{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/89/50/6057d92231543d1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 100%;
+}
+#imge{
+    background-image: url(https://thumbs.dreamstime.com/b/fresh-vegetables-fruit-basket-white-background-62194281.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 100%;
+}
+#best{
+    background-image: url(https://media.gettyimages.com/id/1284690585/photo/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors.jpg?s=612x612&w=gi&k=20&c=JjXuAnR-VdnZLEaCx4kt8aCRg-gA94Cl1xfRy2KJb-c=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 100%; 
+}

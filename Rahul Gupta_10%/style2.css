@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    color: black;
+    background-color: #FAF9F6;
+}
+
+.main{
+    display: flex;
+}
+
+.image{
+    height: 100vh;
+    width: 800px;
+    background-image: url("https://media.istockphoto.com/id/1176428256/photo/business-coworkers.jpg?s=612x612&w=0&k=20&c=3lgrohiH-1Vm0CztGGuK9YJKsciFSGtUgZ9S2giQ-P4=");
+    background-repeat: no-repeat;
+    overflow: none;
+    background-position: center;
+    background-size: contain;
+}
+
+.content{
+    width: 700px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.content h3{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 200;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    padding: 0;
+    line-height: 1px;
+}
+
+.content p{
+    text-align: center;
+    line-height: 1em;
+}
+
+
+.logo img{
+    border-radius: 50%;
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+
+.logo{
+    display: block;
+}
+
+/* .content2 h4{
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.content2 p{
+    line-height: 1px;
+} */

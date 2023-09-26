@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Foodano</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  
+<style>
+  
+*{
+    
+padding: 0%;
+margin: 0%;
+}
+
+.ms-auto{
+
+gap: 15px;
+margin-left: 150px !important;
+}
+
+.bg{
+
+background-image: url(https://img.freepik.com/premium-photo/summer-fruits-free-area-text-high-quality-ai-generated-image-white-background_174191-4444.jpg?w=2000);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+.tg{
+
+background-color: rgb(207, 207, 207);
+opacity: 0.75;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+.txt{
+
+position: relative;
+}
+
+.oi{
+
+display: flex; 
+padding-left: 640px; 
+height: 100%; 
+text-align: center;
+color: #ffffff;
+}
+
+.py{
+
+width: 70%; 
+height: 70px;
+text-align: center;
+background-color: #ffffff; 
+border-radius: 40px;
+}
+
+</style>
+
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg" style="padding: 20px 0px;">
+      <div class="container-fluid" style="padding-left: 150px;">
+        <a class="navbar-brand" href="app.component.html">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" alt="Apex Logo" width="40" height="36">
+          <b style="font-size: 35px;">Foodano</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#ab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                HOME
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#ab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#ab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#ab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#co">Cntact Us</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass" style="border: 1px solid #000;padding: 5px; border-radius: 50%;"></i></a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="#"><i class="fa-regular fa-heart" style="border: 1px solid #000;padding: 5px; border-radius: 50%;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping" style="border: 1px solid #000;padding: 5px; border-radius: 50%;"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div>
+        <div class="bg">
+        <div class="row" style="margin-right: 0;">
+          <div class="col-lg-4"> </div>
+        <div class="col-lg-4" style="padding: 200px 100px;">
+        <div class="txt">
+        <h2><b>Organic & Healthy Vegan Food</b></h2>
+        <br>
+        <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, perferendis eius deserunt autem rem</h6>
+        <br>
+        <button style="background-color: #82B440; border-color: transparent; color: #ffffff; padding: 4px 15px; border-radius: 45px;">Purchase</button>
+        </div>
+        </div>
+        <div class="col-lg-4" style="padding: 120px 100px 150px;">
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- SECTION 1 -->
+    <div class="container" style="padding: 0;">
+          <div class="row">
+          <div class="col-lg-4" style="background-color: lightgrey;">
+            <div class="row" style="margin-right: 0;">
+            <div class="col-lg-4" style=" display: flex; align-items: center;">
+              <p><span style=" font-weight: 800;">We Offer Premium & <br>100% Organic Food</span>
+              <h6 style="margin-top: 10px; font-size: 10px; text-decoration: underline; color: green;">Shop Now</h6>
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <img src="https://media.istockphoto.com/id/973357338/photo/assorted-fruit-juice.jpg?s=612x612&w=0&k=20&c=m2M4dzTE1HhPAmFGYk-yOFCLQ5KjGT63ofjHw-4S1Uw=" alt="img" width="100%" height="100%">
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="background-color: lightgrey;">
+            <div class="row" style="margin-right: 0;">
+            <div class="col-lg-4" style=" display: flex; align-items: center;">
+              <p><span style=" font-weight: 800;">We Offer Premium & <br>100% Organic Food</span>
+              <h6 style="margin-top: 10px; font-size: 10px; text-decoration: underline; color: green;">Shop Now</h6>
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <img src="https://img.freepik.com/free-vector/different-smoothies-bottles-set_52683-30939.jpg?w=2000" alt="img" width="100%" height="100%">
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="background-color: aquamarine;">
+            <div class="row" style="margin-right: 0; display: flex; align-items: center;">
+              <div class="col-lg-4">
+                <p><span style=" font-weight: 800;">We Offer Premium & <br>100% Organic Food</span>
+                <h6 style="margin-top: 10px; font-size: 10px; text-decoration: underline; color: green;">Shop Now</h6>
+                </p>
+              </div>
+              <div class="col-lg-8">
+               <img src="https://previews.123rf.com/images/nitr/nitr1307/nitr130700025/20883296-different-bottles-of-juice-with-fruits-on-wooden-table.jpg" alt="img" width="100%" height="100%">
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>
+    
+    <br><br>
+
+    <!-- SECTION 2 -->
+    <div class="container" style="padding: 0;">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="https://img.freepik.com/free-photo/set-fruits-seeds-leaves_23-2148145087.jpg" alt="img">
+        </div>
+        <div class="col-lg-9">
+          <h4> Hot Deals 1795 Days : 11 Hours : 40 Mins : 58 Secs </h4>
+          <br>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="https://media.istockphoto.com/id/185284489/photo/orange.jpg?s=612x612&w=0&k=20&c=m4EXknC74i2aYWCbjxbzZ6EtRaJkdSJNtekh4m1PspE=" alt="fruit" width="100%" height="100%">
+            </div>
+            <div class="col-lg-4">
+              <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="fruit" width="100%" height="100%">
+            </div>
+            <div class="col-lg-4">
+              <img src="https://www.eatingwell.com/thmb/L6xxfuFKUg9MNr4U58-j-UvY_NE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bad-fruits-you-should-be-eating-56c1dedd080140b7b34e099943cbb1ec.jpg" alt="fruit" width="100%" height="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- SECTION 3 -->
+    <div class="container" style="margin: 0px 150px;">
+        <h2 style="text-align: center; color: green;"><b>Latest Arrivals</b></h2>
+        <div class="row" style="margin-right: 0; padding: 0px 150px;">
+          <div class="col-lg-3">
+            <img src="https://media.istockphoto.com/id/185284489/photo/orange.jpg?s=612x612&w=0&k=20&c=m4EXknC74i2aYWCbjxbzZ6EtRaJkdSJNtekh4m1PspE=" alt="fruit" width="100%" height="100%">
+          </div>
+          <div class="col-lg-3">
+            <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="fruit" width="100%" height="100%">
+          </div>
+          <div class="col-lg-3">
+            <img src="https://www.eatingwell.com/thmb/L6xxfuFKUg9MNr4U58-j-UvY_NE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bad-fruits-you-should-be-eating-56c1dedd080140b7b34e099943cbb1ec.jpg" alt="fruit" width="100%" height="100%">
+          </div>
+          <div class="col-lg-3">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/mango-fruit-sugar-1530136260.jpg" alt="fruit" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="row" style="margin-right: 0; padding: 0px 150px;">
+          <div class="col-lg-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfarAFccmDz22ZlfrL_vWW9Rxja-7INLgIRA&usqp=CAU" alt="fruit" width="100%" height="100%">
+          </div>
+          <div class="col-lg-3">
+            <img src="https://freshclub.co.in/cdn/shop/products/DragonFruit1pc.jpg?v=1660188898&width=1946" alt="fruit" width="100%" height="100%">
+          </div>
+          <div class="col-lg-3">
+            <img src="https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?cs=srgb&dl=pexels-pixabay-51312.jpg&fm=jpg" alt="fruit" width="100%" height="100%">
+          </div>
+          <div class="col-lg-3">
+            <img src="https://info.ehl.edu/hubfs/Blog-EHL-Insights/Article-Header-EHL-Insights/slowest-perishable-vegetables-fruits.jpeg" alt="fruit" width="100%" height="100%">
+          </div>
+        </div>
+    </div>
+    
+    <br><br>
+
+    <!-- SECTION 4 -->
+    <div class="container" style="padding: 0;">
+      <div class="row">
+      <div class="col-lg-6" style="background-color: lightgrey;">
+        <div class="row" style="margin-right: 0;">
+        <div class="col-lg-4" style=" display: flex; align-items: center;">
+          <p><span style=" font-weight: 800;">We Offer Premium & <br>100% Organic Food</span>
+          <h6 style="margin-top: 10px; font-size: 10px; text-decoration: underline; color: green;">Shop Now</h6>
+          </p>
+        </div>
+        <div class="col-lg-8">
+          <img src="https://img.freepik.com/free-vector/different-smoothies-bottles-set_52683-30939.jpg?w=2000" alt="img" width="100%" height="100%">
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-6" style="background-color: aquamarine;">
+        <div class="row" style="margin-right: 0; display: flex; align-items: center;">
+          <div class="col-lg-4">
+            <p><span style=" font-weight: 800;">We Offer Premium & <br>100% Organic Food</span>
+            <h6 style="margin-top: 10px; font-size: 10px; text-decoration: underline; color: green;">Shop Now</h6>
+            </p>
+          </div>
+          <div class="col-lg-8">
+           <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="img" width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- FOOTER -->
+    <section id="co">
+      <div style="padding-bottom: 20px; background-color: rgb(208, 232, 240);">
+                <div class="container" style="background-color: antiquewhite; padding: 50px 0px; margin: 0px 150px">
+                <div class="row" style="margin-right: 0;">
+                  <div class="col-lg-4" style="padding-left: 50px;">
+                    GET CONNECTED <br>
+                    <span style="font-size: 30px; font-weight: 500;">SUBSCRIBE</span> <span style="font-size: 30px; color: green;">NEWSLETTER</span>
+                    </div>
+                  <div class="col-lg-8">
+                    <input class="py" type="email" placeholder="Enter Your Mail" name="EMAIL">
+                  </div>
+                </div>  
+              </div>
+      <div style="margin: 50px 50px 0px;">
+        <div class="row" style="margin-right: 0; padding: 50px 0px 20px;">
+          <div class="col-lg-4">
+            <div style="padding-left: 120px">
+            <span style="font-size: 25px; text-decoration: underline;"><b>Contact Us</b></span>
+            <br><br>
+            <p style="padding-top: 5px;">6Fifth Avenue 5501, Broadway, New <br>
+             York Morris Street London London <br><br>
+              foodano@email.com </p>
+              <div>
+                <i class="fa-brands fa-facebook fa-lg" style="border-radius: 50%; color: grey;"></i>+(123) 4567 89000
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2" style="padding-left: 50px;">
+              <h3 style="text-decoration: underline;">Usefull Links</h3>
+              <br>
+              <ul>
+                  <li style="margin-bottom: 5px;">
+                      Shop
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                      Blog
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                      Contact Us
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                      FAQ Page
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                      Services
+                  </li>
+              </ul>
+             </div>
+             <div class="col-lg-2" style="padding-left: 30px;">
+              <h3 style="text-decoration: underline;">Follow Us Now</h3>
+              <br>
+              <ul style="list-style: none;">
+                  <li style="margin-bottom: 5px;">
+                    <a href="https://www.facebook.com/" style="text-decoration: none;"><i class="fa-brands fa-facebook fa-lg" style="color: green;"></i><span style="color: #000;"> Facebook</span></a>
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                    <a href="https://twitter.com/" style="text-decoration: none;"><i class="fa-brands fa-twitter fa-lg" style="color: green;"></i><span style="color: #000;"> Twitter</span></a>
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                    <a href="https://www.pinterest.com/" style="text-decoration: none;"><i class="fa-brands fa-pinterest-p fa-lg" style="color: green;"></i><span style="color: #000;"> Pinterest</span></a>
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                    <a href="https://www.dribble.com/" style="text-decoration: none;"><i class="fa-brands fa-dribbble fa-lg" style="color: green;"></i><span style="color: #000;"> Dribble</span></a>
+                  </li>
+                  <li style="margin-bottom: 5px;">
+                    <a href="https://www.linkedin.com/" style="text-decoration: none;"><i class="fa-brands fa-linkedin-in fa-lg" style="color: green;"></i><span style="color: #000;"> Linkedin</span></a>
+                  </li>
+              </ul>
+             </div>
+          <div class="col-lg-4" style="padding-left: 60px;">
+           <h3 style="text-decoration: underline;">Get Direction</h3>
+           <br>
+           <img src="https://i.pcmag.com/imagery/articles/01IB0rgNa4lGMBlmLyi0VP6-6..v1611346416.png" alt="map" width="100%" height="60%">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+</body>
+      
+</html>
+      
+<router-outlet></router-outlet>

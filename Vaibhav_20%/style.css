@@ -1,0 +1,38 @@
+.logo{
+    color: white;
+}
+.icon{
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left img{
+    height: 200px;
+    margin-top: -20px;
+}
+.middle{
+    margin-top: -20px;
+}
+.right{
+    margin-top: -20px;
+}
+.right-banner img{
+    display: flex;
+    
+}
+.text{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.banner img{
+    min-height: 50%;
+   
+
+    
+}

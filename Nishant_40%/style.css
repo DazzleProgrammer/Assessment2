@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(198, 226, 250);
+}
+.fg{
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  
+
+}
+
+ /* next nav */
+
+ header {
+
+    margin-top: 0px;
+ 
+    background-color: #568203;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  
+   
+}
+
+
+
+
+header nav ul {
+   
+    display: flex; 
+    list-style: none;
+    
+    
+}
+
+header nav ul li a {
+    
+   
+    display: inline-block;
+    color: rgb(8, 8, 8);
+    padding: 5px 0;
+    margin: 0 6px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-weight: bold;
+    text-align: center;
+   text-decoration: none;
+   position: relative;
+}
+header nav ul ul{
+    display: none;
+   
+}
+header nav ul li:hover>ul{
+    display: block;
+    margin-top: 3px;
+   background-color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    position: fixed;
+}
+
+ header nav ul li a:hover{
+    color: black;
+    
+    margin-top: 10px;
+    background-color: rgb(129, 129, 241);  
+} 
+
+.lab {
+    cursor: pointer;
+    display: none;
+}
+
+.lab div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: rgb(10, 10, 10);
+}
+
+/* hero section */
+
+.hsd{
+    height: 550px;
+    background:url(https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6);
+}
+
+/* next */
+
+.dg3{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    
+    color: rgb(12, 12, 12);
+}
+.dd3{
+    height: 300px;
+    
+}
+
+/* next */
+
+.dd4{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+}
+.dgc{
+    height: 350px;
+}
+
+/* next */
+.dd5{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    
+}
+.d5{
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* footer */
+
+.con{
+    text-align: center !important; 
+    background-color:#72A0C1;
+    margin-top: 60px;
+
+}
+.con input{
+    height: 30px;
+
+}
+.con button{
+    height: 30px;
+    width: 100px;
+}
+.con button:hover{
+    border-color: rgb(12, 12, 12);
+}
+
+.icon{
+   
+    font-size: 30px;
+    padding: 15px;
+
+}
+.icon a{
+    color:#041E42 ;
+}
+.icon a:hover{
+    
+    color: rgb(253, 253, 253);
+}
+.fo{
+    width: auto;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.dis{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    background-color: #72A0C1;
+    text-align: center;
+}
+.dis span{
+    font-size: 26px;
+    color: rgb(166, 243, 66);
+}
+.dis h4{
+    color: #041E42;
+}
+.dis h4:hover{
+    color: rgb(245, 230, 230);
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    header .logo{
+        font-size: 25px;
+         padding: 0px;
+    }
+
+    .lab {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        background: #9b9898;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+    .dg3{
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+    }
+    .dd4{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5px;
+    }
+    .dd5{
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+}
+@media screen and  (max-width: 650px ) {
+    .dis{
+        grid-template-columns:repeat(2, 1fr);
+        row-gap: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .fg{
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        height: auto;
+    }
+    .dd4{
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+    }
+
+}

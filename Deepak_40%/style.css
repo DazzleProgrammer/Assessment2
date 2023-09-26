@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#top-head{
+    background-image: url(Images/bd4cf68ee3682fb26ad01aee30d9ea98.jpg);
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+}
+
+.top-head-contain{
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* nav 1 start */
+#nav1{
+    background-color: black;
+    color: white;
+}
+
+.icon-left{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .icon-left{
+        flex-wrap: wrap;
+    }
+}
+
+.icon-left a{
+    color: white;
+    text-decoration: none;
+}
+
+/* nav2 start */
+#nav2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.time{
+    word-spacing: 10px;
+    font-size: 0.75rem;
+}
+
+.login{
+    word-spacing: 10px;
+    font-size: 0.75rem;
+}
+
+@media (max-width:800px){
+    #nav2{
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+}
+
+/* nav start */
+nav{
+    background: var(--black-color);
+}
+
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    color: white;
+}
+
+.it-logo{
+    width: 450px;
+}
+
+.it-logo img{
+    width: 200px;
+    margin: 15px 50px;
+}
+
+.search-input{
+    border: 2px solid white;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li{
+    display: inline-block;
+    background:  var(--black-color);
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: var(--white-color);
+    line-height: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: 0.3s all ease;
+}
+
+nav ul li a:hover{
+    color: var(--orange-color);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--orange-color), 0 0 10px var(--orange-color);
+}
+
+nav ul li a:hover{
+    box-shadow: none ;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    z-index: 100;
+    border-top: 3px solid var(--orange-color);
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+
+nav ul ul ul{
+    border-top: none;
+}
+
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul ul li a{
+    line-height: 50px;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.show, .icon, input{
+    display: none;
+}
+
+@media all and (max-width: 1385px){
+    nav ul{
+        margin-right: 0px;
+        float: left;
+    }
+    nav.logo{
+        padding-left: 30px;
+        width: 100%;
+    }
+    .show + a, ul{
+        display: none;
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul li a:hover{
+        box-shadow: none;
+    }
+    .show{
+        display: block;
+        color: var(--white-color);
+        font-size: 18px;
+        padding: 0 12px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color: var(--orange-color);
+    }
+    .icon{
+        display: block;
+        color: var(--white-color);
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    nav ul ul{
+        top: 70px;
+        float: none;
+        position: static;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul ul a{
+        padding-left: 40px;
+    }
+    nav ul ul ul a{
+        padding-left: 80px;
+    }
+    nav ul ul ul li{
+        position: static;
+    }
+    [id^=button]:checked + ul{
+        display: block;
+    }
+    nav ul ul li{
+        border-bottom: 0px;
+    }
+    span.cancel:before{
+        content: '\f00d';
+    }
+}
+/* nav bar end */
+
+/* seller content start */
+#accordian{
+    padding: 20px;
+}
+
+.banner{
+    background-image: url(Images/banner.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-content{
+    text-align: center;
+    padding: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner-content h2{
+    font-size: 4rem;
+}
+
+.banner-content button{
+    padding: 5px;
+    margin-top: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+/* main contain stART */
+.juice-fruit{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+   
+}
+
+.juice{
+    background-image: url(Images/juice.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.juice h5{
+    font-size: 3rem;
+}
+
+.button1{
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.fruits{
+    background-image: url(Images/fruits.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+.fruits h5{
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+.vegetable{
+    background-image: url(Images/vegetable.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.vegetable h5{
+    font-size: 3rem;
+    color: white;
+
+}
+
+@media (max-width:1300px){
+    .juice-fruit{
+        flex-wrap: wrap;
+       
+    }
+}
+
+
+/* footer */
+footer{
+    margin-top: 15px;
+ }
+
+ .foot-panel1 a{
+    background-color: green;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 50px;
+ }
+
+.foot-panel2{
+    background-color: #f1f1f1;
+    color: #000;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.foot-panel2 ul{
+    margin-top: 15px;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.foot-panel2 ul p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.foot-panel3{
+    background-color: #f1f1f1;
+    border-top: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Images/Light_Gray_and_Blue_Modern_Grocery_Store_Logo-removebg-preview.png");
+    background-size: cover;
+    height: 70px;
+    width: 200px;
+}
+
+/* footer start */
+.footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  .social a{
+    font-size: 2rem;
+    color: var(--orange-color);
+  }
+  
+  .comp-image img{
+    width: 180px;
+  }
+  
+  .copyright{
+    font-size: 1.2rem;
+    color: var(--orange-color);
+  }
+  /* footer end */
+   
+@media (min-width:1200px) {
+    .body{
+        font-size: 50%;
+    }
+}

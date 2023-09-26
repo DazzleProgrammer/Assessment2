@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lora&family=Montserrat:wght@100&family=Neuton&family=Open+Sans:wght@300&family=Playfair+Display:wght@600&display=swap');
+
+
+div{
+    /* border: 1px solid black;  */
+}
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Neuton', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+.sell:hover{
+    background-color: green !important;
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+a{
+    color: green;
+}
+a:hover{
+    color: black !important;
+    background-image: rgba(238, 14, 14, 0.1) !important;
+}
+
+.bg-image{
+    height: 80vh !important;
+}
+.card-bg-1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                /* Image URL */
+                url('https://images.pexels.com/photos/3922642/pexels-photo-3922642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+                color: white;
+}
+.card-bg1 a{
+    color: green;
+}
+.card-bg-2{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                /* Image URL */
+                url('https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+                color: white;
+}
+.card-bg-3{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                /* Image URL */
+                url('https://images.pexels.com/photos/1410138/pexels-photo-1410138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+                color: white;
+}
+
+.shop-1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    /* Image URL */
+    url('https://images.pexels.com/photos/189267/pexels-photo-189267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+}
+.shop-2{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    /* Image URL */
+    url('https://images.pexels.com/photos/4397921/pexels-photo-4397921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+}
+
+
+@media screen and (min-width: 480px)  {
+    
+    .navbar-toggler-icon{
+        background-color: white;
+    }
+}

@@ -1,0 +1,51 @@
+body {
+    
+    font-family: var(--theme-font);
+    color: var(--title-color);
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(18, 24, 32, 0.4);
+    line-height: 170%;
+    -ms-scroll-chaining: none;
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+  }
+  .top{
+    background-color: black;
+    color: white;
+  }
+  .navbar {
+    color: white;
+  }
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-item a:hover {
+    text-decoration: none;
+  }
+  .banner {
+    font-family: Syne, sans-serif;
+    color: white;
+    padding-bottom: 10%;
+    background: 
+      url("https://images.agoramedia.com/wte3.0/gcms/organic-diet-pregnancy-2021-722x406.jpg") center/cover
+        no-repeat;
+  }
+
+  /* section2 */
+  .section2 .card{
+ border: none;
+ gap: 1px;
+  }
+  .section3 .card{
+    border: none;
+    gap: 1px;
+     }
+  .section4 .card{
+    border: none;
+  }
+  .section5 .card{
+    border: none;
+    gap: 1px;
+     }

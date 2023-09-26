@@ -1,0 +1,36 @@
+.hb{
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:5px 0px;
+    color: white;
+}
+.bh{
+    border-right: 1px solid white;
+    padding-right: 2px;
+}
+.ico{
+    background-color: rgb(2, 206, 2);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.bi{
+    background-image: url(images/Header/2.jpg);
+}
+.navbar{
+    background-color: rgb(2, 206, 2)!important;
+}
+.nav-link{
+    color: white!important;
+    font-weight: bold!important;
+    font-size: large!important;
+}
+.cg h5{
+    padding:3%
+}

@@ -1,0 +1,178 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FF4500; 
+}
+
+.her{
+    background-color: rgba(13, 4, 40, 0.824);
+    color: #f8f9fa;
+}
+
+.upper{
+    background-image: url(https://wallpapercave.com/dwp2x/wp12057492.jpg);
+    background-size: cover;
+}
+
+.navbar-brand img {
+    max-width: 100px; 
+    max-height: 40px; 
+}
+.navbar{
+    background-color: rgb(73, 175, 66);
+}
+
+.navbar-nav .nav-item {
+    margin-right: 70px; 
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(249, 244, 244);
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+.navbar.fixed-top {
+    
+    top: 0;
+    background-color: rgba(232, 227, 227, 0.9); 
+}
+.navbar-toggler{
+    color: aqua;
+   
+}
+
+
+
+
+.hero {
+    background-image: url('https://wallpapercave.com/dwp2x/wp12057485.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.lead{
+    color: #333;
+}
+.display-4{
+    color: #333;
+    font-weight: 500;
+}
+
+.img1{
+    background-image: url(https://wallpapercave.com/dwp2x/wp11990045.jpg);
+    background-size: cover;
+   
+}
+.img2{
+    background-size: cover;
+    background-image: url(https://wallpapercave.com/dwp2x/wp11990056.jpg);
+}
+
+.img3{
+    background-size: cover;
+background-image: url(https://wallpapercave.com/dwp2x/wp12057483.jpg);
+}
+.card-title{
+    color: rgb(49, 121, 45);
+    justify-content: center;
+}
+.card-text{
+    color: rgb(73, 99, 121);
+    justify-content: center;
+}
+.text{
+  color: rgb(52, 48, 43);
+  text-align: center;
+}
+.title{
+   
+    padding-top: 100px;
+}
+.offer{
+    border: 50%;
+    border-radius: 50%;
+    float: inline-end;
+}
+.time{
+    padding-top: 50px;
+    margin-left: 300px;
+}
+
+
+.star-rating {
+    display: inline-block;
+    font-size: 24px;
+    color: #f39c12; 
+}
+
+.star-rating::before {
+    content: '\2605'; 
+}
+
+.half-star::before {
+    content: '\2605'; 
+    position: relative;
+    top: -0.5em;
+    color: #f39c12;
+}
+
+
+.hot-deal {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+}
+
+@media (max-width: 576px) {
+    .hot-deal {
+        font-size: 18px;
+        flex-direction: column; 
+    }
+}
+#current-time {
+    margin-left: 10px; 
+    font-size: 24px; 
+    font-weight: bolder;
+    justify-content: center;
+}
+
+
+
+#footer{
+    background-color: rgb(160, 197, 197);
+   
+}
+
+.img4{
+    background-image: url(https://media.istockphoto.com/id/1425914413/photo/fresh-orange-juice-on-kitchen-counter.jpg?b=1&s=612x612&w=0&k=20&c=rraEeO0K6CxZyrFvpeXeewYTRerYXMEF6ORYtnJ9SnE=);
+}
+.img5{
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1393775482/photo/fruit-background-colorful-fresh-fruits-on-colored-table-orange-lemon-grapefruit-space-for.jpg?b=1&s=612x612&w=0&k=20&c=9-9gQNGXy4PXMYjLz-_GN6COidQOS5Pr4CPrB6dDZAs=);
+}
+
+
+.news{
+    background-color: rgb(119, 186, 164);
+}
+
+
+
+
+
+
+
+.latest{
+    width: 150px;
+    margin: 10px;
+    height: 200px;
+
+}
+.latest img{
+    max-width: 100%;
+    height: auto;
+}
+
+
